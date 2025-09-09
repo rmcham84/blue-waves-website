@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue Waves Facility Management</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8;
+            color: #333;
+        }
+        .bg-blue-wave {
+            background-image: url('https://placehold.co/1920x1080/6383e5/ffffff?text=Blue+Waves+Facility+Management');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header & Hero Section -->
+    <header class="bg-blue-800 text-white p-4 lg:p-6 shadow-lg fixed w-full top-0 z-50">
+        <nav class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-xl lg:text-2xl font-bold flex items-center rounded-md p-2 hover:bg-white hover:text-blue-800 transition-colors duration-300">
+                <span class="mr-2">🌊</span> Blue Waves
+            </a>
+            <div class="hidden lg:flex space-x-6">
+                <a href="#about" class="hover:text-blue-300 transition-colors duration-300 rounded-md p-2 hover:bg-white hover:text-blue-800">About Us</a>
+                <a href="#services" class="hover:text-blue-300 transition-colors duration-300 rounded-md p-2 hover:bg-white hover:text-blue-800">Services</a>
+                <a href="#why-choose-us" class="hover:text-blue-300 transition-colors duration-300 rounded-md p-2 hover:bg-white hover:text-blue-800">Why Choose Us</a>
+                <a href="#contact" class="hover:text-blue-300 transition-colors duration-300 rounded-md p-2 hover:bg-white hover:text-blue-800">Contact</a>
+            </div>
+            <button id="menu-btn" class="lg:hidden p-2 rounded-md hover:bg-white hover:text-blue-800 transition-colors duration-300">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                </svg>
+            </button>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-blue-800 py-4 mt-4 rounded-md shadow-lg">
+            <a href="#about" class="block text-white px-4 py-2 hover:bg-white hover:text-blue-800 transition-colors duration-300 rounded-md">About Us</a>
+            <a href="#services" class="block text-white px-4 py-2 hover:bg-white hover:text-blue-800 transition-colors duration-300 rounded-md">Services</a>
+            <a href="#why-choose-us" class="block text-white px-4 py-2 hover:bg-white hover:text-blue-800 transition-colors duration-300 rounded-md">Why Choose Us</a>
+            <a href="#contact" class="block text-white px-4 py-2 hover:bg-white hover:text-blue-800 transition-colors duration-300 rounded-md">Contact</a>
+        </div>
+    </header>
+
+    <main class="pt-24">
+        <!-- Hero Section -->
+        <section class="bg-blue-wave text-white py-20 lg:py-40 text-center rounded-b-3xl mx-4 lg:mx-8 shadow-xl">
+            <div class="container mx-auto px-4">
+                <h1 class="text-4xl lg:text-6xl font-extrabold mb-4 animate-fade-in-up">Excellence in Every Clean</h1>
+                <p class="text-lg lg:text-2xl font-light mb-8 animate-fade-in-up delay-200">Expert cleaning solutions for commercial, industrial, healthcare, and retail environments.</p>
+                <div class="space-y-4 lg:space-y-0 lg:space-x-4 animate-fade-in-up delay-400">
+                    <button class="bg-white text-blue-800 font-bold py-3 px-8 rounded-full shadow-lg hover:bg-blue-100 transition-transform transform hover:scale-105">Request a Free Quote</button>
+                    <button class="bg-transparent border-2 border-white text-white font-bold py-3 px-8 rounded-full hover:bg-white hover:text-blue-800 transition-transform transform hover:scale-105">Book a Consultation</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="py-16 lg:py-24 bg-white rounded-3xl mx-4 lg:mx-8 mt-8 shadow-xl">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl lg:text-4xl font-bold mb-4 text-blue-800">About Us</h2>
+                <p class="text-lg max-w-3xl mx-auto mb-8 text-gray-700">At Blue Waves Facility Management, we combine precision, professionalism, and care to deliver exceptional cleaning services across Melbourne and beyond. Our commitment to excellence, precision, and customer satisfaction ensures every space we service is hygienic, safe, and inviting.</p>
+                <a href="#" class="inline-block text-blue-600 hover:text-blue-800 font-semibold transition-colors duration-300">
+                    Learn More About Us &rarr;
+                </a>
+            </div>
+        </section>
+
+        <!-- Our Services Section -->
+        <section id="services" class="py-16 lg:py-24">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl lg:text-4xl font-bold text-center mb-12 text-blue-800">Our Services</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Service Card 1: Office & Commercial -->
+                    <div class="bg-white p-6 rounded-3xl shadow-lg border border-gray-200 hover:shadow-xl transition-shadow duration-300">
+                        <div class="text-4xl mb-4 text-blue-500">🏢</div>
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">Office & Commercial</h3>
+                        <p class="text-gray-600">Daily/weekly cleaning, reception upkeep, restroom hygiene.</p>
+                    </div>
+                    <!-- Service Card 2: Retail -->
+                    <div class="bg-white p-6 rounded-3xl shadow-lg border border-gray-200 hover:shadow-xl transition-shadow duration-300">
+                        <div class="text-4xl mb-4 text-blue-500">🛍️</div>
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">Retail Cleaning</h3>
+                        <p class="text-gray-600">Storefront presentation, floor care, display sanitisation, fitting room cleaning.</p>
+                    </div>
+                    <!-- Service Card 3: Industrial & Specialised -->
+                    <div class="bg-white p-6 rounded-3xl shadow-lg border border-gray-200 hover:shadow-xl transition-shadow duration-300">
+                        <div class="text-4xl mb-4 text-blue-500">🏭</div>
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">Industrial & Specialised</h3>
+                        <p class="text-gray-600">Warehouse cleaning, pressure washing, post-construction cleans.</p>
+                    </div>
+                    <!-- Service Card 4: Healthcare & Education -->
+                    <div class="bg-white p-6 rounded-3xl shadow-lg border border-gray-200 hover:shadow-xl transition-shadow duration-300">
+                        <div class="text-4xl mb-4 text-blue-500">🏥</div>
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">Healthcare & Education</h3>
+                        <p class="text-gray-600">Medical-grade sanitation, childcare centre cleaning.</p>
+                    </div>
+                    <!-- Service Card 5: Additional Services -->
+                    <div class="bg-white p-6 rounded-3xl shadow-lg border border-gray-200 hover:shadow-xl transition-shadow duration-300">
+                        <div class="text-4xl mb-4 text-blue-500">🧼</div>
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">Additional Services</h3>
+                        <p class="text-gray-600">Carpet care, window cleaning, waste management, event cleaning.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us Section -->
+        <section id="why-choose-us" class="py-16 lg:py-24 bg-blue-800 text-white rounded-3xl mx-4 lg:mx-8 shadow-xl">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl lg:text-4xl font-bold text-center mb-12">Why Choose Blue Waves?</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-center">
+                    <!-- Feature 1: Trained Professionals -->
+                    <div class="p-6">
+                        <div class="text-4xl mb-4">👷</div>
+                        <h3 class="text-xl font-semibold mb-2">Trained Professionals</h3>
+                        <p class="text-blue-200">Experienced, trained, and trustworthy personnel.</p>
+                    </div>
+                    <!-- Feature 2: Flexible Packages -->
+                    <div class="p-6">
+                        <div class="text-4xl mb-4">🕒</div>
+                        <h3 class="text-xl font-semibold mb-2">Flexible Packages</h3>
+                        <p class="text-blue-200">Tailored to suit your schedule and budget.</p>
+                    </div>
+                    <!-- Feature 3: Eco-Friendly Products -->
+                    <div class="p-6">
+                        <div class="text-4xl mb-4">🌱</div>
+                        <h3 class="text-xl font-semibold mb-2">Eco-Friendly Products</h3>
+                        <p class="text-blue-200">Safe for people and the planet.</p>
+                    </div>
+                    <!-- Feature 4: Quality Assurance -->
+                    <div class="p-6">
+                        <div class="text-4xl mb-4">🔍</div>
+                        <h3 class="text-xl font-semibold mb-2">Quality Assurance</h3>
+                        <p class="text-blue-200">Regular inspections and feedback loops.</p>
+                    </div>
+                    <!-- Feature 5: 24/7 Availability -->
+                    <div class="p-6">
+                        <div class="text-4xl mb-4">🌙</div>
+                        <h3 class="text-xl font-semibold mb-2">24/7 Availability</h3>
+                        <p class="text-blue-200">Emergency and after-hours support.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="py-16 lg:py-24 bg-white rounded-3xl mx-4 lg:mx-8 mt-8 shadow-xl">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl lg:text-4xl font-bold mb-12 text-blue-800">Client Testimonials</h2>
+                <div class="max-w-xl mx-auto">
+                    <p class="text-xl italic text-gray-700 mb-4">"Blue Waves transformed our workspace. They are professional, punctual, and thorough."</p>
+                    <p class="text-sm font-semibold text-gray-500">- Satisfied Client</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-16 lg:py-24">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl lg:text-4xl font-bold mb-4 text-blue-800">Get in Touch Today</h2>
+                <p class="text-lg max-w-3xl mx-auto mb-8 text-gray-700">We're here to help you create a healthier, more productive environment.</p>
+                <div class="flex flex-col items-center space-y-4">
+                    <a href="tel:+61449980553" class="text-xl font-semibold text-blue-600 hover:text-blue-800 transition-colors duration-300 flex items-center">
+                        <span class="mr-2">📞</span> +61 449 980 553
+                    </a>
+                    <a href="mailto:info@bluewavesfacility.com.au" class="text-xl font-semibold text-blue-600 hover:text-blue-800 transition-colors duration-300 flex items-center">
+                        <span class="mr-2">📧</span> info@bluewavesfacility.com.au
+                    </a>
+                    <p class="text-lg text-gray-600 flex items-center">
+                        <span class="mr-2">📍</span> Melbourne, VIC
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-blue-900 text-white py-8 lg:py-12 rounded-t-3xl mx-4 lg:mx-8 shadow-inner">
+        <div class="container mx-auto px-4 text-center lg:flex lg:justify-between lg:items-center">
+            <div class="mb-4 lg:mb-0">
+                <p>&copy; 2024 Blue Waves Facility Management. All Rights Reserved.</p>
+            </div>
+            <div class="flex justify-center space-x-4">
+                <a href="#" class="hover:text-blue-300 transition-colors duration-300">Privacy Policy</a>
+                <a href="#" class="hover:text-blue-300 transition-colors duration-300">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuBtn = document.getElementById('menu-btn');
+            const mobileMenu = document.getElementById('mobile-menu');
+
+            menuBtn.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+        });
+    </script>
+</body>
+</html>
