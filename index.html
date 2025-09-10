@@ -14,8 +14,8 @@
             background-color: #f0f4f8;
             color: #333;
         }
-        .bg-blue-wave {
-            background-image: url('https://placehold.co/1920x1080/6383e5/ffffff?text=Blue+Waves+Facility+Management');
+        .bg-hero-image {
+            background-image: url('https://placehold.co/1920x1080/012A66/ffffff?text=Professional+Cleaning');
             background-size: cover;
             background-position: center;
         }
@@ -24,53 +24,60 @@
 <body class="antialiased">
 
     <!-- Header & Hero Section -->
-    <header class="bg-blue-800 text-white p-4 lg:p-6 shadow-lg fixed w-full top-0 z-50">
+    <header class="bg-blue-900 text-white p-4 lg:p-6 shadow-lg fixed w-full top-0 z-50">
         <nav class="container mx-auto flex justify-between items-center">
-            <a href="#" class="text-xl lg:text-2xl font-bold flex items-center rounded-md p-2 hover:bg-white hover:text-blue-800 transition-colors duration-300">
+            <a href="#" class="text-xl lg:text-2xl font-bold flex items-center rounded-md p-2 hover:bg-white hover:text-blue-900 transition-colors duration-300">
                 <span class="mr-2">🌊</span> Blue Waves
             </a>
             <div class="hidden lg:flex space-x-6">
-                <a href="#about" class="hover:text-blue-300 transition-colors duration-300 rounded-md p-2 hover:bg-white hover:text-blue-800">About Us</a>
-                <a href="#services" class="hover:text-blue-300 transition-colors duration-300 rounded-md p-2 hover:bg-white hover:text-blue-800">Services</a>
-                <a href="#why-choose-us" class="hover:text-blue-300 transition-colors duration-300 rounded-md p-2 hover:bg-white hover:text-blue-800">Why Choose Us</a>
-                <a href="#contact" class="hover:text-blue-300 transition-colors duration-300 rounded-md p-2 hover:bg-white hover:text-blue-800">Contact</a>
+                <a href="#about" class="hover:text-blue-300 transition-colors duration-300 rounded-md p-2">About</a>
+                <a href="#services" class="hover:text-blue-300 transition-colors duration-300 rounded-md p-2">Services</a>
+                <a href="#sectors" class="hover:text-blue-300 transition-colors duration-300 rounded-md p-2">Sectors</a>
+                <a href="#why-us" class="hover:text-blue-300 transition-colors duration-300 rounded-md p-2">Why Us</a>
+                <a href="#contact" class="hover:text-blue-300 transition-colors duration-300 rounded-md p-2">Contact</a>
             </div>
-            <button id="menu-btn" class="lg:hidden p-2 rounded-md hover:bg-white hover:text-blue-800 transition-colors duration-300">
+            <button id="menu-btn" class="lg:hidden p-2 rounded-md hover:bg-white hover:text-blue-900 transition-colors duration-300">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
                 </svg>
             </button>
         </nav>
         <!-- Mobile Menu -->
-        <div id="mobile-menu" class="hidden lg:hidden bg-blue-800 py-4 mt-4 rounded-md shadow-lg">
-            <a href="#about" class="block text-white px-4 py-2 hover:bg-white hover:text-blue-800 transition-colors duration-300 rounded-md">About Us</a>
-            <a href="#services" class="block text-white px-4 py-2 hover:bg-white hover:text-blue-800 transition-colors duration-300 rounded-md">Services</a>
-            <a href="#why-choose-us" class="block text-white px-4 py-2 hover:bg-white hover:text-blue-800 transition-colors duration-300 rounded-md">Why Choose Us</a>
-            <a href="#contact" class="block text-white px-4 py-2 hover:bg-white hover:text-blue-800 transition-colors duration-300 rounded-md">Contact</a>
+        <div id="mobile-menu" class="hidden lg:hidden bg-blue-900 py-4 mt-4 rounded-md shadow-lg">
+            <a href="#about" class="block text-white px-4 py-2 hover:bg-white hover:text-blue-900 transition-colors duration-300 rounded-md">About</a>
+            <a href="#services" class="block text-white px-4 py-2 hover:bg-white hover:text-blue-900 transition-colors duration-300 rounded-md">Services</a>
+            <a href="#sectors" class="block text-white px-4 py-2 hover:bg-white hover:text-blue-900 transition-colors duration-300 rounded-md">Sectors</a>
+            <a href="#why-us" class="block text-white px-4 py-2 hover:bg-white hover:text-blue-900 transition-colors duration-300 rounded-md">Why Us</a>
+            <a href="#contact" class="block text-white px-4 py-2 hover:bg-white hover:text-blue-900 transition-colors duration-300 rounded-md">Contact</a>
         </div>
     </header>
 
     <main class="pt-24">
         <!-- Hero Section -->
-        <section class="bg-blue-wave text-white py-20 lg:py-40 text-center rounded-b-3xl mx-4 lg:mx-8 shadow-xl">
+        <section class="bg-hero-image text-white py-20 lg:py-40 text-center rounded-b-3xl mx-4 lg:mx-8 shadow-xl">
             <div class="container mx-auto px-4">
-                <h1 class="text-4xl lg:text-6xl font-extrabold mb-4 animate-fade-in-up">Excellence in Every Clean</h1>
-                <p class="text-lg lg:text-2xl font-light mb-8 animate-fade-in-up delay-200">Expert cleaning solutions for commercial, industrial, healthcare, and retail environments.</p>
+                <h1 class="text-4xl lg:text-6xl font-extrabold mb-4 animate-fade-in-up">Commercial Cleaning & Facility Management</h1>
+                <p class="text-lg lg:text-2xl font-light mb-8 animate-fade-in-up delay-200">The most trusted name in professional cleaning, serving Melbourne.</p>
                 <div class="space-y-4 lg:space-y-0 lg:space-x-4 animate-fade-in-up delay-400">
-                    <button class="bg-white text-blue-800 font-bold py-3 px-8 rounded-full shadow-lg hover:bg-blue-100 transition-transform transform hover:scale-105">Request a Free Quote</button>
-                    <button class="bg-transparent border-2 border-white text-white font-bold py-3 px-8 rounded-full hover:bg-white hover:text-blue-800 transition-transform transform hover:scale-105">Book a Consultation</button>
+                    <button class="bg-blue-600 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-blue-700 transition-transform transform hover:scale-105">Get a Quote</button>
                 </div>
             </div>
         </section>
 
         <!-- About Us Section -->
         <section id="about" class="py-16 lg:py-24 bg-white rounded-3xl mx-4 lg:mx-8 mt-8 shadow-xl">
-            <div class="container mx-auto px-4 text-center">
-                <h2 class="text-3xl lg:text-4xl font-bold mb-4 text-blue-800">About Us</h2>
-                <p class="text-lg max-w-3xl mx-auto mb-8 text-gray-700">At Blue Waves Facility Management, we combine precision, professionalism, and care to deliver exceptional cleaning services across Melbourne and beyond. Our commitment to excellence, precision, and customer satisfaction ensures every space we service is hygienic, safe, and inviting.</p>
-                <a href="#" class="inline-block text-blue-600 hover:text-blue-800 font-semibold transition-colors duration-300">
-                    Learn More About Us &rarr;
-                </a>
+            <div class="container mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                <div class="text-left">
+                    <h2 class="text-3xl lg:text-4xl font-bold mb-4 text-blue-800">A Tradition of Excellence</h2>
+                    <p class="text-lg text-gray-700 mb-4">Blue Waves Facility Management, we combine precision, professionalism, and care to deliver exceptional cleaning services across Melbourne and beyond. Our commitment to excellence, precision, and customer satisfaction ensures every space we service is hygienic, safe, and inviting.</p>
+                    <p class="text-lg text-gray-700 mb-8">With a team of highly trained professionals and a flexible approach to service delivery, we offer both routine maintenance and specialised cleaning solutions.</p>
+                    <a href="#" class="inline-block text-blue-600 hover:text-blue-800 font-semibold transition-colors duration-300">
+                        Learn More &rarr;
+                    </a>
+                </div>
+                <div class="rounded-3xl overflow-hidden shadow-lg">
+                    <img src="https://placehold.co/600x400/cccccc/000000?text=About+Us" alt="About Us" class="w-full h-auto object-cover">
+                </div>
             </div>
         </section>
 
@@ -79,74 +86,102 @@
             <div class="container mx-auto px-4">
                 <h2 class="text-3xl lg:text-4xl font-bold text-center mb-12 text-blue-800">Our Services</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <!-- Service Card 1: Office & Commercial -->
-                    <div class="bg-white p-6 rounded-3xl shadow-lg border border-gray-200 hover:shadow-xl transition-shadow duration-300">
+                    <div class="bg-white p-6 rounded-3xl shadow-lg border border-gray-200 hover:shadow-xl transition-shadow duration-300 text-center">
                         <div class="text-4xl mb-4 text-blue-500">🏢</div>
-                        <h3 class="text-xl font-semibold mb-2 text-gray-800">Office & Commercial</h3>
-                        <p class="text-gray-600">Daily/weekly cleaning, reception upkeep, restroom hygiene.</p>
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">Commercial Cleaning</h3>
+                        <p class="text-gray-600">Daily, weekly, and custom cleaning schedules for businesses of all sizes.</p>
                     </div>
-                    <!-- Service Card 2: Retail -->
-                    <div class="bg-white p-6 rounded-3xl shadow-lg border border-gray-200 hover:shadow-xl transition-shadow duration-300">
-                        <div class="text-4xl mb-4 text-blue-500">🛍️</div>
-                        <h3 class="text-xl font-semibold mb-2 text-gray-800">Retail Cleaning</h3>
-                        <p class="text-gray-600">Storefront presentation, floor care, display sanitisation, fitting room cleaning.</p>
-                    </div>
-                    <!-- Service Card 3: Industrial & Specialised -->
-                    <div class="bg-white p-6 rounded-3xl shadow-lg border border-gray-200 hover:shadow-xl transition-shadow duration-300">
-                        <div class="text-4xl mb-4 text-blue-500">🏭</div>
-                        <h3 class="text-xl font-semibold mb-2 text-gray-800">Industrial & Specialised</h3>
-                        <p class="text-gray-600">Warehouse cleaning, pressure washing, post-construction cleans.</p>
-                    </div>
-                    <!-- Service Card 4: Healthcare & Education -->
-                    <div class="bg-white p-6 rounded-3xl shadow-lg border border-gray-200 hover:shadow-xl transition-shadow duration-300">
-                        <div class="text-4xl mb-4 text-blue-500">🏥</div>
-                        <h3 class="text-xl font-semibold mb-2 text-gray-800">Healthcare & Education</h3>
-                        <p class="text-gray-600">Medical-grade sanitation, childcare centre cleaning.</p>
-                    </div>
-                    <!-- Service Card 5: Additional Services -->
-                    <div class="bg-white p-6 rounded-3xl shadow-lg border border-gray-200 hover:shadow-xl transition-shadow duration-300">
+                    <div class="bg-white p-6 rounded-3xl shadow-lg border border-gray-200 hover:shadow-xl transition-shadow duration-300 text-center">
                         <div class="text-4xl mb-4 text-blue-500">🧼</div>
-                        <h3 class="text-xl font-semibold mb-2 text-gray-800">Additional Services</h3>
-                        <p class="text-gray-600">Carpet care, window cleaning, waste management, event cleaning.</p>
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">Office Cleaning</h3>
+                        <p class="text-gray-600">Tailored cleaning programs to keep your office space hygienic and productive.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-3xl shadow-lg border border-gray-200 hover:shadow-xl transition-shadow duration-300 text-center">
+                        <div class="text-4xl mb-4 text-blue-500">🏭</div>
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">Industrial & Specialised Cleaning</h3>
+                        <p class="text-gray-600">Heavy-duty and specialised cleaning for industrial and manufacturing facilities.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-3xl shadow-lg border border-gray-200 hover:shadow-xl transition-shadow duration-300 text-center">
+                        <div class="text-4xl mb-4 text-blue-500">💦</div>
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">Washroom Services</h3>
+                        <p class="text-gray-600">Comprehensive washroom cleaning and sanitisation services for a pristine environment.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-3xl shadow-lg border border-gray-200 hover:shadow-xl transition-shadow duration-300 text-center">
+                        <div class="text-4xl mb-4 text-blue-500">📦</div>
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">Strata Cleaning</h3>
+                        <p class="text-gray-600">Expert cleaning for shared residential and commercial properties.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-3xl shadow-lg border border-gray-200 hover:shadow-xl transition-shadow duration-300 text-center">
+                        <div class="text-4xl mb-4 text-blue-500">🌱</div>
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">Sustainable Cleaning</h3>
+                        <p class="text-gray-600">Eco-friendly cleaning practices and products for a healthier planet.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sectors Section -->
+        <section id="sectors" class="py-16 lg:py-24 bg-gray-100 rounded-3xl mx-4 lg:mx-8 shadow-xl">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl lg:text-4xl font-bold text-center mb-12 text-blue-800">Sectors We Serve</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+                    <div class="rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+                        <img src="https://placehold.co/400x300/a3c4f3/000000?text=Commercial" alt="Commercial" class="w-full h-auto object-cover">
+                        <div class="p-4 text-center">
+                            <h3 class="text-lg font-semibold text-gray-800">Commercial</h3>
+                        </div>
+                    </div>
+                    <div class="rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+                        <img src="https://placehold.co/400x300/a3c4f3/000000?text=Office" alt="Office" class="w-full h-auto object-cover">
+                        <div class="p-4 text-center">
+                            <h3 class="text-lg font-semibold text-gray-800">Office</h3>
+                        </div>
+                    </div>
+                    <div class="rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+                        <img src="https://placehold.co/400x300/a3c4f3/000000?text=Industrial" alt="Industrial" class="w-full h-auto object-cover">
+                        <div class="p-4 text-center">
+                            <h3 class="text-lg font-semibold text-gray-800">Industrial</h3>
+                        </div>
+                    </div>
+                    <div class="rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+                        <img src="https://placehold.co/400x300/a3c4f3/000000?text=Retail" alt="Retail" class="w-full h-auto object-cover">
+                        <div class="p-4 text-center">
+                            <h3 class="text-lg font-semibold text-gray-800">Retail</h3>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Why Choose Us Section -->
-        <section id="why-choose-us" class="py-16 lg:py-24 bg-blue-800 text-white rounded-3xl mx-4 lg:mx-8 shadow-xl">
+        <section id="why-us" class="py-16 lg:py-24 bg-blue-800 text-white rounded-3xl mx-4 lg:mx-8 shadow-xl">
             <div class="container mx-auto px-4">
-                <h2 class="text-3xl lg:text-4xl font-bold text-center mb-12">Why Choose Blue Waves?</h2>
+                <h2 class="text-3xl lg:text-4xl font-bold text-center mb-12">Why Choose Us?</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-center">
-                    <!-- Feature 1: Trained Professionals -->
                     <div class="p-6">
-                        <div class="text-4xl mb-4">👷</div>
-                        <h3 class="text-xl font-semibold mb-2">Trained Professionals</h3>
-                        <p class="text-blue-200">Experienced, trained, and trustworthy personnel.</p>
+                        <div class="text-4xl mb-4">✅</div>
+                        <h3 class="text-xl font-semibold mb-2">Quality & Consistency</h3>
+                        <p class="text-blue-200">Our meticulous attention to detail ensures a consistent, high-standard clean every time.</p>
                     </div>
-                    <!-- Feature 2: Flexible Packages -->
                     <div class="p-6">
-                        <div class="text-4xl mb-4">🕒</div>
-                        <h3 class="text-xl font-semibold mb-2">Flexible Packages</h3>
-                        <p class="text-blue-200">Tailored to suit your schedule and budget.</p>
+                        <div class="text-4xl mb-4">🤝</div>
+                        <h3 class="text-xl font-semibold mb-2">Reliable & Trustworthy</h3>
+                        <p class="text-blue-200">Count on our team to be there when we say we will, providing a professional and secure service.</p>
                     </div>
-                    <!-- Feature 3: Eco-Friendly Products -->
                     <div class="p-6">
-                        <div class="text-4xl mb-4">🌱</div>
-                        <h3 class="text-xl font-semibold mb-2">Eco-Friendly Products</h3>
-                        <p class="text-blue-200">Safe for people and the planet.</p>
+                        <div class="text-4xl mb-4">🛡️</div>
+                        <h3 class="text-xl font-semibold mb-2">Safe & Compliant</h3>
+                        <p class="text-blue-200">We adhere to all safety regulations, protecting your staff and ours.</p>
                     </div>
-                    <!-- Feature 4: Quality Assurance -->
                     <div class="p-6">
-                        <div class="text-4xl mb-4">🔍</div>
-                        <h3 class="text-xl font-semibold mb-2">Quality Assurance</h3>
-                        <p class="text-blue-200">Regular inspections and feedback loops.</p>
+                        <div class="text-4xl mb-4">🌿</div>
+                        <h3 class="text-xl font-semibold mb-2">Sustainable Solutions</h3>
+                        <p class="text-blue-200">Our commitment to eco-friendly practices uses products that are safe for the environment.</p>
                     </div>
-                    <!-- Feature 5: 24/7 Availability -->
                     <div class="p-6">
-                        <div class="text-4xl mb-4">🌙</div>
-                        <h3 class="text-xl font-semibold mb-2">24/7 Availability</h3>
-                        <p class="text-blue-200">Emergency and after-hours support.</p>
+                        <div class="text-4xl mb-4">🏆</div>
+                        <h3 class="text-xl font-semibold mb-2">Proven Track Record</h3>
+                        <p class="text-blue-200">A strong history of satisfied clients and long-term partnerships.</p>
                     </div>
                 </div>
             </div>
@@ -155,7 +190,7 @@
         <!-- Testimonials Section -->
         <section class="py-16 lg:py-24 bg-white rounded-3xl mx-4 lg:mx-8 mt-8 shadow-xl">
             <div class="container mx-auto px-4 text-center">
-                <h2 class="text-3xl lg:text-4xl font-bold mb-12 text-blue-800">Client Testimonials</h2>
+                <h2 class="text-3xl lg:text-4xl font-bold mb-12 text-blue-800">What Our Clients Say</h2>
                 <div class="max-w-xl mx-auto">
                     <p class="text-xl italic text-gray-700 mb-4">"Blue Waves transformed our workspace. They are professional, punctual, and thorough."</p>
                     <p class="text-sm font-semibold text-gray-500">- Satisfied Client</p>
@@ -192,6 +227,8 @@
             <div class="flex justify-center space-x-4">
                 <a href="#" class="hover:text-blue-300 transition-colors duration-300">Privacy Policy</a>
                 <a href="#" class="hover:text-blue-300 transition-colors duration-300">Terms of Service</a>
+                <a href="https://linkedin.com" target="_blank" class="hover:text-blue-300 transition-colors duration-300">LinkedIn</a>
+                <a href="https://facebook.com" target="_blank" class="hover:text-blue-300 transition-colors duration-300">Facebook</a>
             </div>
         </div>
     </footer>
